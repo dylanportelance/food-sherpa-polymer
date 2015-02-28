@@ -5038,12 +5038,63 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
       </div>
 
       <paper-action-dialog id="rubric" backdrop="">
-        <p>Dating back to March 3, 2010:</p>
-        <p>- Restaurants with greater than 8 level *** violations (85th percentile) received a grade	of an F.</p>
-        <p>- Restaurants with between 6 and 8 level *** violations (75th percentile) or greater than 3 level ** violations (85th percentile) received a grade of a D.</p>
-        <p>- Restaurants with between 4 and 5 level *** violations (65th percentile) or 2 level ** violations (75th percentile) or greater than 41 level * violations (85th percentile) received a grade of a C.</p>
-        <p>- Restaurants with between 2 and 3 level *** violations (45th percentile) or 1 level violations (55th percentile) or greater than 22 level * violations (65th percentile) received a grade of a B.</p>
-        <p>- Restaurants with less than 2 level *** violations (45th percentile) and less than 1 level	** violations (55th percentile) and less than 23 level * violations (65th percentile)	received a grade of an A.</p>
+        <p>Food Sherpa assigns a letter grade based on number of food inspection violations from March 3, 2010 to present.<br/><br/>Legend:
+          <li><strong>***</strong> - Foodborne Illness Risk Factor Critical Violation</li>
+          <li><strong>**</strong> - Critical Violation</li>
+          <li><strong>*</strong> - Non-Critical Violation</li>
+        </p>
+        <table cellpadding="2">
+          <tbody>
+            <tr>
+              <th>Grade</th>
+              <th>*** (Percentile)</th>
+              <th></th>
+              <th>** (%)</th>
+              <th></th>
+              <th>* (%)</th>
+            </tr>
+            <tr>
+              <td>A</td>
+              <td>0-1 (45%)</td>
+              <td>and</td>
+              <td>0 (55%)</td>
+              <td>and</td>
+              <td>0-22 (65%)</td>
+            </tr>
+            <tr>
+              <td>B</td>
+              <td>2-3 (45%)</td>
+              <td>or</td>
+              <td>1 (55%)</td>
+              <td>or</td>
+              <td>23-40 (65%)</td>
+            </tr>
+            <tr>
+              <td>C</td>
+              <td>4-5 (65%)</td>
+              <td>or</td>
+              <td>2 (75%)</td>
+              <td>or</td>
+              <td>41 or more (85%)</td>
+            </tr>
+            <tr>
+              <td>D</td>
+              <td>6-8 (75%)</td>
+              <td>or</td>
+              <td>3 or more (85%)</td>
+              <td>and</td>
+              <td>0 or more</td>
+            </tr>
+            <tr>
+              <td>F</td>
+              <td>8 or more (85%)</td>
+              <td>and</td>
+              <td>0 or more</td>
+              <td>and</td>
+              <td>0 or more</td>
+            </tr>
+          </tbody>
+        </table> 
         <paper-button affirmative="" autofocus="">Close</paper-button>
       </paper-action-dialog>
     </core-header-panel>
